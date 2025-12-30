@@ -25,20 +25,20 @@ CALL HI "ChatGPT"
 Each release includes a test.pl file containing example PartLang code.
 
 To Run a file:
-	``` batch
-	python partlang.py run test.pl
-	```
+``` batch
+python partlang.py run test.pl
+```
 	
 To Compile a file:
-	Non-verbose:
-		```batch
-		python partlang.py compile test.pl test.py
-		```
-		
-	Verbose:
-		```batch
-		python partlang.py Vcompile test.pl test.py
-		```
+Non-verbose:
+```batch
+python partlang.py compile test.pl test.py
+```
+	
+Verbose:
+```batch
+python partlang.py Vcompile test.pl test.py
+```
 		
 To show all options:
 ```batch
