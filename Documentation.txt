@@ -1,0 +1,24 @@
+UE00001   -> User Defined Error
+
+PL00001   -> Variable missing assignment
+PL00002   -> No nested blocks. Functions can remove this (1 layer)
+PL00003   -> 'ELIF' used before 'IF'
+PL00004   -> 'ENDIF' used before 'IF', 'ELIF', 'ELSE'
+PL00005   -> 'ELSE' used before 'IF'
+PL00006-1 -> Comparison operator missing
+PL00006-2 -> Missing right side of operator
+PL00007   -> 'ENDWHILE' used before 'WHILE'
+
+PL10001   -> Function is inside control block(s)
+PL10002   -> No nested functions
+PL10003   -> 'ENDVOID' used before 'VOID'
+PL10004   -> 'RET' statement is invalid
+
+PL20001   -> 'CATCH' used before 'TRY'
+PL20002   -> 'ENDTRYCATCH' used before 'CATCH'
+PL20003   -> Add an "error message" after 'CTHROW'
+
+PL30001   -> Put the 'IN' statement at the top of the file before any other code :D
+
+Documentation will get longer as more error codes arise.
+You are safe... for now...
