@@ -1,6 +1,7 @@
 # PartLang
 
 PartLang is a custom programming language that transpiles to Python and can be run or compiled using the same compiler backend.
+PartLang was made by a solo developer (me)
 
 ## Features
 - Functions (`VOID`)
@@ -43,4 +44,5 @@ python partlang.py Vcompile test.pl test.py
 To show all options:
 ```batch
 python partlang.py help
+
 ```
